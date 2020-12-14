@@ -1,1 +1,1 @@
-# CS
+# CS - computer science practice projects
