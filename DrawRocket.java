@@ -1,7 +1,7 @@
 
 /*
-Tina Toma
-Draw Rocket Programming Assignment
+This program draws a rocket based on the global constant SUBHEIGHT.
+As SUBHEIGHT changes, the rocket size scales with SUBHEIGHT.
 */
 
 public class DrawRocket
