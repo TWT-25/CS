@@ -1,3 +1,6 @@
+//Play a Rock Paper Scissors game with the computer!
+//When the game ends the program will print how many times the player has won. 
+
 import java.util.*;
 
 public class RPC
