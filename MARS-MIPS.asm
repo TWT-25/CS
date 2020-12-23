@@ -1,4 +1,14 @@
-# Code for HW7, CS51, Tina Toma
+# This program uses the MARS simulation tool to convert the below C code into MIPS. 
+# int main() {
+# 	int A[] = {15, 20, 35, 20, 45, 65, 20};
+# 	int x = 0; int y = 20; int z = 0; 
+# 	while (x < 7) {
+# 		if (A[x] == y) {
+#			z++;}
+#		x++;}
+# 	return 0;}
+
+
 # Set memory for array
 .data
 	A: .space 28
