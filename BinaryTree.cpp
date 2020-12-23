@@ -1,3 +1,6 @@
+//Given all existing definitions of binary tree, this program adds the "singleParent" function.
+//This function determins how many nodes have only one child.  
+
 #include <iostream>
 using namespace std;
 
@@ -496,15 +499,7 @@ int main()
 
 	int num;
 
-	//cout << "Enter integers ending with -999" << endl;
-	//cin >> num;
-	//while (num != -999)
-	//{
-	//	treeRoot.insert(num);
-	//	cin >> num;
-	//}
-
-	//Data: 65 55 22 44 61 19 90 10 78 52 -999
+	//Data: 65 55 22 44 61 19 90 10 78 52
 	cout << "Numbers before Binary Tree: "
 		<< 65 << " " << 55 << " " << 22 << " " << 44
 		<< " " << 61 << " " << 19 << " " << 90 << " " << 10
@@ -549,30 +544,6 @@ int main()
 	cout << "Tree Height: " << treeRoot.treeHeight() << endl;
 	cout << "Number of Nodes: " << treeRoot.treeNodeCount() << endl;
 	cout << "Number of Single Parent Nodes: " << treeRoot.treeSingleParentNodeCount() << endl;
-
-	//cout << endl << "===========================" << endl;
-	//int val = 0;
-	//cout << "Enter a number to Delete: ";
-	//cin >> val;
-	//treeRoot.deleteNode(val);
-	//cout << endl << "Tree nodes in preorder after delete: ";
-	//treeRoot.preorderTraversal();
-	//cout << endl << "===========================" << endl;
-
-	//cout << "Enter a number to Insert: ";
-	//cin >> val;
-	//treeRoot.insert(val);
-	//cout << endl << "Tree nodes in preorder after insert: ";
-	//treeRoot.preorderTraversal();
-	//cout << endl << "===========================" << endl;
-
-	//cout << "Enter a number to Search: ";
-	//cin >> val;
-	//if (treeRoot.search(val))
-	//	cout << "Number was Found in the Tree!" << endl;
-	//cout << endl << "Tree nodes in preorder after Search: ";
-	//treeRoot.preorderTraversal();
-	//cout << endl << "===========================" << endl;
 
 	return 0;
 }
