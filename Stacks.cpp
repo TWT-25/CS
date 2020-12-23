@@ -1,3 +1,5 @@
+//This program converts a string input to an integer or decimal number using stacks. 
+
 #include <iostream>
 #include <cassert>
 #include <string>
