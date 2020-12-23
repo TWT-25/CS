@@ -1,5 +1,6 @@
-//This program tests various operation of a linked list
-//45 67 23 89 -999
+//This program tests various operations of a linked list: 
+//Creating a list based on user input, searching the list, and deleting a node.
+//Main function was also modified to allow different data types as user input: int, char and string. 
 
 #include <iostream> 
 #include <cassert> 
