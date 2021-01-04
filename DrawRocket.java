@@ -1,7 +1,7 @@
 
 /*
 This program draws a rocket based on the global constant SUBHEIGHT.
-As SUBHEIGHT changes, the rocket size scales with SUBHEIGHT.
+As SUBHEIGHT changes, the rocket size scales accordingly.
 */
 
 public class DrawRocket
